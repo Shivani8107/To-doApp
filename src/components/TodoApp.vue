@@ -56,7 +56,7 @@ export default {
   data(){
       return{
         editedTask : null,
-        task:'Hello World',
+        task:null,
         availableStatus:['to-do','in-progress','finished'],
         tasks: [
         {
@@ -115,6 +115,9 @@ export default {
 } 
 #app{
   color: aquamarine;
+}
+.form-control{
+  background-color: aqua;
 }
 
 </style>
